@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
+sys.path.append('D:\Python37\Lib\site-packages')
 import unittest
 import HTMLTestRunnerNew
 from common.read_path import *
