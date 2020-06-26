@@ -6,7 +6,8 @@ import HTMLTestRunnerNew
 from common.read_path import *
 from common.test_httprequest import TestHttpRequest
 import time
-sys.path.append('D:\Python37\Lib\site-packages')
+import os
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 suite=unittest.TestSuite()
 loader=unittest.TestLoader()
 suite.addTest(loader.loadTestsFromTestCase(TestHttpRequest))
